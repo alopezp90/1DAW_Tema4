@@ -8,8 +8,8 @@ public class Programa {
 
     public static void main(String[] args) {
 
-        Nif alberto = new Nif(Nif.leer());
-        alberto.mostrar();
+        Nif dni = new Nif(Nif.leer());
+        dni.mostrar();
     }
 
 }
