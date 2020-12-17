@@ -1,4 +1,4 @@
-package relacionC.p09;
+package relacion.c.p09;
 
 /**
  * @author Alberto López Puertas
