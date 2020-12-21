@@ -9,11 +9,11 @@ public class CuentaBancaria {
     private long numeroCuenta; 
     private double interes, saldoCuenta;
     private String nifCliente, nombreCliente;
-    private static int contador;
+    private static int contador = 100000;
 
     public CuentaBancaria() {
         contador++;
-        this.numeroCuenta = 100000 + contador;
+        this.numeroCuenta = contador;
         this.saldoCuenta = 0;
         this.interes = 0;
         this.nifCliente = "";
@@ -23,7 +23,7 @@ public class CuentaBancaria {
     public CuentaBancaria(String nifCliente, String nombreCliente,
             double saldoCuenta, double interes) {
         contador++;
-        this.numeroCuenta = 100000 + contador;
+        this.numeroCuenta = contador;
         this.saldoCuenta = saldoCuenta;
         this.interes = interes;
         this.nifCliente = nifCliente;
